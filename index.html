@@ -8,23 +8,26 @@
     <title>Login Form in HTML and CSS | Codehal</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/d1f07ec24b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <main id="tela">
-        <form action="">
+        <form action="cadastro.php" method="post" autocomplete="on">
             <h1>Login</h1>
             <div class="input-box">
                 <label for="itext"></label>
                 <input type="text" name="text" id="itext" required placeholder="username">
+                <i class="fa-solid fa-user"></i>
             </div>
             <div class="input-box">
                 <label for="password"></label>
                 <input type="password" required placeholder="password">
+                <i class="fa-solid fa-lock"></i>
             </div>
             <div class="auto-username">
-                <label for=""><input type="checkbox">Lembre-me</label>
-                <a href="#">Esqueci a senha</a>
+                <label for="irem"><input type="checkbox" id="irem">Lembre-me</label>
+                <a href="#">Esqueceu a senha?</a>
             </div>
             <button type="submit" class="btn">Login</button>
             <div class="registre">

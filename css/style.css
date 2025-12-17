@@ -5,5 +5,123 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-size: 1em;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../img/img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main#tela{
+  width: 420px;
+  color: white;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  color: white;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, .1);
+}
+
+main h1{
+  text-align: center;
+  font-size: 36px;
+  padding: 10px;
+}
+
+#tela .input-box{
+  width: 100%;
+  height: 50px;
+  margin: 30px 0px;
+  position: relative; 
+}
+
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  font-size: 1em;
+  color: white;
+  padding: 20px 45px 20px 20px;
+  cursor: pointer;
+}
+
+.input-box input::placeholder{
+  color: white;
+}
+
+.input-box i{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#tela .auto-username{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: .9em;
+  margin: -15px 0 15px;
+}
+
+.auto-username label input{
+  accent-color: #fff;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.auto-username a{
+  text-decoration: none;
+  color: white;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.auto-username a:hover{
+  text-decoration: underline;
+}
+
+#tela .btn{
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+#tela .registre{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: .9em;
+  color: white;
+  margin-top: 20px;
+}
+
+#tela .registre a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color .3s;
+}
+
+#tela .registre a:hover{
+  color: wheat;
+}
