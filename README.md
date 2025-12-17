@@ -64,6 +64,13 @@ O destaque do projeto é o uso de **glassmorphism**, tipografia personalizada e 
 
 ---
 
+## Preview
+
+Para acessar o projeto, compartilho o link através do GitHub Pages:
+https://gutosavi.github.io/projeto-login/
+
+---
+
 ## Aprendizados
 
 * Uso prático do Flexbox para centralização
