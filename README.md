@@ -49,6 +49,8 @@ Nesse exercício, utilizei uma function, o querySelector para selecionar element
 ├── index.html
 ├── css/
 │   └── style.css
+├── js/
+│   └── script.js
 ├── img/
 │   └── img.jpg
 └── README.md
