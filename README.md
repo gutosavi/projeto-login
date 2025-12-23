@@ -4,6 +4,10 @@ Projeto de **Tela de Login** desenvolvido exclusivamente com **HTML5 e CSS3**, c
 
 O destaque do projeto é o uso de **glassmorphism**, tipografia personalizada e alinhamento central responsivo.
 
+Posteriormente, com o intuito de praticar e aplicar os estudos em JavaScript, adicionei um pequeno script no qual transformo os dados coletados no formulário de login em um array.
+
+Nesse exercício, utilizei uma function, o querySelector para selecionar elementos do DOM, o método preventDefault() para evitar o comportamento padrão do formulário e o método push() para adicionar os dados à lista.
+
 ---
 
 ## Objetivo do Projeto
