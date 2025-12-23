@@ -13,16 +13,16 @@
 
 <body>
     <main id="tela">
-        <form action="cadastro.php" method="post" autocomplete="on">
+        <form action="" method="get" autocomplete="on" id="formulario">
             <h1>Login</h1>
             <div class="input-box">
                 <label for="itext"></label>
-                <input type="text" name="text" id="itext" required placeholder="username">
+                <input type="text" name="text" id="itext" required placeholder="username" class="usuario">
                 <i class="fa-solid fa-user"></i>
             </div>
             <div class="input-box">
                 <label for="password"></label>
-                <input type="password" required placeholder="password">
+                <input type="password" required placeholder="password" class="senha">
                 <i class="fa-solid fa-lock"></i>
             </div>
             <div class="auto-username">
@@ -35,6 +35,7 @@
             </div>
         </form>
     </main>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
